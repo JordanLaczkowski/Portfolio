@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  background-color: #d2ef9f;
+}
+
+.info {
+  background-color: #d9dcd6;
+}
+
+.title {
+  display: inline-block;
+  font-size: 48px;
+}
+
+.section-title {
+  padding-top: 20px;
+}
+
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* background-color: #0c11a8; */
+  color: #ffffff;
+}
+
+.about-me {
+  display: inline-block;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.background-image {
+  width: 100px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.background-image-square {
+  width: 100px;
+  height: 100px;
+}
+
+.background-image-large {
+  width: 200px;
+  height: 300px;
+}
+
+.image-wide {
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 100%;
+  height: 800px;
+}
+
+.work-title {
+  text-align: center;
+  font-size: 16px;
+}
+
+.navigation {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.image-normal {
+  width: 50%;
+  height: 400px;
+}
+
+.previous-work {
+  display: inline-flex;
+  text-align: center;
+}
+
+.footer {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+
+a {
+  color: gray;
+  display: inline-flex;
+}
+
+.list {
+  display: inline-block;
+  margin-left: 25px;
+}
+@media screen and (max-width: 768px) {
+  main,
+  nav {
+    flex-direction: column;
+  }
+  .image-wide {
+    width: 100%;
+    height: 400px;
+  }
+
+  .image-normal {
+    width: 50%;
+    height: 200px;
+  }
+
+  .previous-work {
+    display: contents;
+    text-align: center;
+  }
+}
